@@ -11,12 +11,12 @@ Here, <YOUR_JAR> is a2main.jar.
 Cipher type: 
 --caesar <shift_param>: Create a new Caesar cipher with the given integer shift parameter.
 --random: Create a new monoalphabetic substitution cipher with a randomly chosen permutation of the alphabet.
---vigenere <key>: Create a new Vigenere cipher with the given keyword. The keyword is `
+--vigenere <key>: Create a new Vigenere cipher with the given keyword. The keyword is
 given as a string of maximum length 128 characters.
 --rsa: Create a new RSA cipher.
 --monoLoad <cipher_file>: Load a monoalphabetic substitution cipher (caesar or random)
 from the file specified.
---vigenereLoad <cipher_file>: Load a Vigenere cipher from the file specified. `
+--vigenereLoad <cipher_file>: Load a Vigenere cipher from the file specified.
 --rsaLoad <file>: Create an RSA encrypter/decrypter from the public/private key pair stored
 in the file specified.
 
