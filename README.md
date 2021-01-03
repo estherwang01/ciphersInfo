@@ -1,7 +1,28 @@
 # Ciphers
 Program which allows encryption and decryption with caesar shift ciphers, random substitution ciphers, vigenere ciphers, and RSA public/private key encryption.
 This project was written as a part of Cornel University's CS2112. 
-To view the full contents of the code, please email estherwang01@hotmail.com. Due to academic integrity concerns, I am not able to publically post the full repository. 
+To view the full contents of the code, please email estherwang01@hotmail.com. Due to academic integrity concerns, I am not able to publically post the full repository.
+
+# Cipher files
+Ciphers can be saved to files in the following format: 
+`
+MONO
+bcdefghijklmnopqrstuvwxyza
+` 
+For Caesar and monoalphabetic ciphers. 
+`
+VIGENERE
+key
+`
+For Vigenere ciphers and
+`
+RSA
+n
+e
+d
+`
+For RSA ciphers. 
+
 
 # Running the program 
 The basic format of the command is: 
