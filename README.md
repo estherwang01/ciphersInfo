@@ -6,19 +6,19 @@ To view the full contents of the code, please email estherwang01@hotmail.com. Du
 # Cipher files
 Ciphers can be saved to files in the following format: 
 `
-MONO
+MONO \n
 bcdefghijklmnopqrstuvwxyza
 ` 
 For Caesar and monoalphabetic ciphers. 
 `
-VIGENERE
+VIGENERE \n
 key
 `
 For Vigenere ciphers and
 `
-RSA
-n
-e
+RSA \n
+n \n
+e \n
 d
 `
 For RSA ciphers. 
